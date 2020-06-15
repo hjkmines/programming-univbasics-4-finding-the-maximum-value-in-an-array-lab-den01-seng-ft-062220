@@ -6,6 +6,38 @@ def find_max_value(array)
   
 end
 
+def maximum_value (array)
+  
+  maximum_value = -1; 
+  
+  array.each do |x| 
+    if x > maximum_value 
+      maximum_value = x 
+    else 
+      nil 
+    end 
+  end
+  
+  maximum_value
+  
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def find_max (array)
   
   counter = 0 
